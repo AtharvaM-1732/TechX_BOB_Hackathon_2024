@@ -63,7 +63,11 @@ The Financial Advisory Assistant Bot aims to address this gap by delivering swif
 
 ## 5. System Architecture
 
-![Architecture of Financial Advisory Bot using RAG with GenAI](media/fig1.png)
+<div align="center">
+    <img src="media/fig1.png" alt="Architecture of Financial Advisory Bot using RAG with GenAI">
+    <p>Architecture of Financial Advisory Bot using RAG with GenAI</p>
+  </a>
+</div>
 
 ### 5.1 Data Collection:
 - Web Scraping (for Banks Websites data): Collects financial information from relevant websites.
@@ -99,26 +103,46 @@ The Financial Advisory Assistant Bot aims to address this gap by delivering swif
 
 ## 6. System Workflow
 
-![Workflow of System](media/fig2.png)
+<div align="center">
+    <img src="media/fig2.png" alt="Workflow of System">
+    <p>Workflow of System</p>
+  </a>
+</div>
 
 6.1. User Query: The process begins when a user inputs a financial question or request through the bot's client interface. This query could range from investment advice to inquiries about financial advice or market trends.
 
 6.2. Question Embedding: Upon receiving the user's query, the system converts the text into a vector representation using embedding techniques. This embedding process translates the text into a format that can be processed and analyzed by the model.
 
-![Text Embedding Process](media/fig3.png)
+<div align="center">
+    <img src="media/fig3.png" alt="Text Embedding Process">
+    <p>Text Embedding Process</p>
+  </a>
+</div>
 
 6.3. Information Retrieval: The embedded query is used to retrieve relevant information from a Vector Database (Vector DB). This database contains preprocessed data points, such as financial news, market trends, historical data, Data from Banking Websites and user preferences, stored in     vectorized form for efficient retrieval.
 
-![Database Creation Structure](media/fig4.png)
+<div align="center">
+    <img src="media/fig4.png" alt="Database Creation Structure">
+    <p>Database Creation Structure</p>
+  </a>
+</div>
 
 6.4. Prompt Composition: Using the retrieved information, along with contextual data from the user's chat history, predefined prompt templates, and the original user question, a comprehensive prompt is composed. 
 
-![Response Generation by Prompt Composition](media/fig5.png)
+<div align="center">
+    <img src="media/fig5.png" alt="Response Generation by Prompt Composition">
+    <p>Response Generation by Prompt Composition</p>
+  </a>
+</div>
 
 6.5. Response Generation: 
     The composed prompt is then fed into a Large Language Model (LLM). The LLM processes the prompt to generate a coherent and accurate response tailored to the user's query and current financial context.
-
-![Cosine Similarity Calculation and Response Generation](media/fig6.png)
+    
+<div align="center">
+    <img src="media/fig6.png" alt="Cosine Similarity Calculation and Response Generation">
+    <p>Cosine Similarity Calculation and Response Generation</p>
+  </a>
+</div>
 
 6.6. Assistance Response: The generated response is delivered to the user through the bot's interface in a user friendly format. Additionally, the response is stored in the chat history, ensuring continuity and context preservation for future interactions with the user.
 
@@ -171,6 +195,10 @@ The Financial Advisory Assistant Bot aims to address this gap by delivering swif
 - Language Preferences: The system accommodates multiple languages (English, Hindi) making it accessible to a broader demographic.
 - Accessibility: Cognitive Speech feature shows an advanced capability to handle speech input and output, enhancing user experience through voice interaction. It includes converting speech to text and giving your app a voice.
 
-![Accessibility Feature](media/fig7.png)
+<div align="center">
+    <img src="media/fig7.png" alt="Accessibility by providing Language Preference and Cognitive Speech">
+    <p>Accessibility by providing Language Preference and Cognitive Speech</p>
+  </a>
+</div>
 
 ---
