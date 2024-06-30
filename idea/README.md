@@ -5,7 +5,7 @@
 </div>
 
 ---
-### Team Name: TeachX
+### Team Name: TechX
 
 ---
 
