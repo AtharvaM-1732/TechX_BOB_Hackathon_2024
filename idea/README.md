@@ -1,6 +1,9 @@
-# Bank of Baroda Hackathon 2024
----
-## Project Title: Financial Advisory Bot using RAG with GenAI
+<div align="center">
+    <h2>Bank of Baroda Hackathon 2024</h2>
+    <h1>Financial Advisory Bot using RAG with GenAI</h1>
+    <i>by <a href="mailto:atharvamundke22@gmail.com">Atharva Mundke</a>, <a href="https://www.linkedin.com/in/shweta-nagapure-4612a2269/">Shweta Nagapurer</a>, <a href="https://www.linkedin.com/in/prasad-kumbhar-/">Prasad Kumbhar</a> and <a href="https://www.linkedin.com/in/virendra-bagul-141786250/">Virendra Bagul</a></i>
+</div>
+
 ---
 ### Team Name: TeachX
 
@@ -88,9 +91,9 @@ The Financial Advisory Assistant Bot aims to address this gap by delivering swif
   2. Converts questions to embeddings using Azure Cognitive Services Text Analytics API
   3. Retrieves relevant information by comparing embeddings in Azure Cosmos DB
 - Prompt Composition:
-  - Azure Functions: Automates the prompt creation process
-  - Combines retrieved information, user question, and chat history
-  - Incorporates predefined templates for comprehensive prompts
+  1. Azure Functions: Automates the prompt creation process
+  2. Combines retrieved information, user question, and chat history
+  3. Incorporates predefined templates for comprehensive prompts
 - Response Generation
   1. Azure Machine Learning Service: Hosts the Large Language Model (LLM)
   2. Azure OpenAI Service: Utilizes advanced language models (GPT-3.5) to generate contextually accurate responses
