@@ -41,7 +41,7 @@ To access the codebase:
 
 1. Navigate to the `source/` folder in the GitHub repository.
 2. Browse through the files and folders to find the specific code you're looking for.
-
+---
 ### Idea Folder
 
 The `idea/` folder contains detailed explanations and documentation for our project. This includes:
@@ -55,3 +55,7 @@ To access the detailed explanations:
 
 1. Navigate to the `idea/` folder in the GitHub repository.
 2. Look for markdown files (`.md`) or other documentation formats that describe various aspects of the project.
+---
+## Getting Started
+1. Explore the `source/` folder to understand the codebase structure.
+2. Read through the documents in the `idea/` folder to get a deeper understanding of the project's architecture and design decisions.
