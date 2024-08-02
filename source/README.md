@@ -2,12 +2,15 @@
 
 This project aims to revolutionize financial advisory services by leveraging generative AI to provide personalized, data-driven financial advice. The application collects and processes financial data, performs hybrid searches using Azure Cognitive Services, and delivers responses through a user-friendly Flask application.
 
+Web-App Hosted Link: <a href="https://atharvam-1732.github.io/TechX_BOB_Hackathon_20241/">Click here</a><br><br>
+Web-App Video Link: <a href="https://drive.google.com/file/d/1W-Naj5z4EGK2QzWuOwBjRH879T2go4L8/view?usp=sharing">Click Here</a>
+
 ## Table of Contents
 
 1. [Overview](#overview)
 2. [Data Collection](#data-collection)
 3. [Data Storage and Categorization](#data-storage-and-categorization)
-4. [Azure Services Integration](#azure-services-integration)
+4. [Azure Services Major Component Integration](#azure-services-major-component-integration)
 5. [Hybrid Search Technique](#hybrid-search-technique)
 6. [Application Deployment](#application-deployment)
 7. [Sample Inputs and Use Cases](#sample-inputs-and-use-cases)
@@ -25,8 +28,8 @@ The project consists of the following components:
 ## Data Collection
 
 Data is collected using:
-- **ScrapeGraphAI**: A tool for web scraping financial data.
-- **Financial news API (Finhub.io)**: For real-time financial news and updates.
+- **<a href="https://scrapegraphai.com/](https://github.com/ScrapeGraphAI/Scrapegraph-ai">ScrapeGraphAI</a>**: A tool for web scraping financial data.
+- **<a href="https://finnhub.io/docs/api/introduction">Financial news API (Finhub.io)</a>**: For real-time financial news and updates.
 
 The data is then stored in structured JSON files and categorized into four main types:
 - General
@@ -156,13 +159,14 @@ Query:
 - Please provide me with advice on whether this life insurance policy meets my long-term financial goals and if there are any better alternatives.
 ```
 
-## Azure Services Integration
+## Azure Services Major Component Integration
 
-- **Azure Blob Storage**: Used for storing structured JSON files and embedding data.
-- **Azure Cognitive Services**: For implementing vector search capabilities.
-- **OpenAI Services**:
+- **<a href="https://azure.microsoft.com/en-in/products/storage/blobs">Azure Blob Storage</a>**: Used for storing structured JSON files and embedding data.
+- **<a href="https://learn.microsoft.com/en-us/azure/search/search-what-is-azure-search">Azure Cognitive Services</a>**: For implementing vector search capabilities.
+- **<a href="https://azure.microsoft.com/en-in/products/ai-services/openai-service">OpenAI Services</a>**:
     - `text-embedding-ada-002`: For creating embeddings of the collected data.
     - `gpt-35-turbo-16k`: For generating responses based on user queries.
+- **<a href="https://azure.microsoft.com/en-in/products/cosmos-db">Azure Cosmos DB</a>**: For storing Chat History, based on that giviing tailored response. 
 
 ## Hybrid Search Technique
 
@@ -175,31 +179,31 @@ The search functionality combines vector search and keyword search to provide ac
 ## Application Deployment
 
 The application is deployed using Azure OpenAI Service. The deployment process involves:
-1. Creating an Azure Cosmos DB account.
+1. Creating an Azure Blob Storage account.
 2. Setting up the data storage and embedding processes.
 3. Implementing the hybrid search mechanism.
 4. Developing a Flask application for the front end.
 
 ## How to Run the Application
 
-1. **Access the Application**: Click on the <a href="https://atharvam-1732.github.io/TechX_BOB_Hackathon_20241/">application link</a> provided.
-2. **Home Page**: You will land on the home page.
+1. **Access the Application**: Click on the <a href="https://atharvam-1732.github.io/TechX_BOB_Hackathon_20241/">application link</a> provided.<br><br>
+2. **Home Page**: You will land on the home page.<br><br>
 <div align="center">
     <img src="media1/home.png" alt="HomePage">
     <p>Home Page</p>
 </div>  
-3. **Login/Register:** Click on the Login button. Currently, the bot is accessible to all users. Simply click on the Login text.
+3. Login/Register: Click on the Login button. Currently, the bot is accessible to all users. Simply click on the Login text.<br><br>
 <div align="center">
     <img src="media1/login.png" alt="login">
     <p>Login Page</p>
 </div>
-4. **Navigation**: You will be navigated to a page with five services: General, Loans, Investments, Insurance Bots, and one Calculator.
+4. Navigation: You will be navigated to a page with five services: General, Loans, Investments, Insurance Bots, and one Calculator.<br><br>
 <div align="center">
     <img src="media1/service.png" alt="cyservice">
     <p>Choose your Service Page</p>
     <br>
 </div>
-5. **Interact with the Bot**: Ask your queries or use the sample inputs provided.
+5. Interact with the Bot: Ask your queries or use the sample inputs provided.<br><br>
 <div align="center">
     <img src="media1/bot.png" alt="bot">
     <p>Bot Interface Page</p>
