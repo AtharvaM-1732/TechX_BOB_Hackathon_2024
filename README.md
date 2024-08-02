@@ -20,10 +20,10 @@ Our repository is organized as follows:
 project-root/
 ├── source/
 │   └── (codebase files)
-│   └── (README.MD)
+│   └── (README.md)
 ├── idea/
 │   └── (detailed explanations)
-│   └── (rEADME.MD)
+│   └── (README.md)
 └── README.md (this file)
 ```
 ## Navigating the Repository
