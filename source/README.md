@@ -188,7 +188,7 @@ The application is deployed using Azure OpenAI Service. The deployment process i
     <img src=""media1/home.png"" alt="HomePage">
     <p>Home Page</p>
 </div>  
-3. **Login/Register**: Click on the Login button. Currently, the bot is accessible to all users. Simply click on the Login text.
+3. **Login/Register:** Click on the Login button. Currently, the bot is accessible to all users. Simply click on the Login text.
 <div align="center">
     <img src=""media1/login.png"" alt="login">
     <p>Login Page</p>
@@ -201,9 +201,9 @@ The application is deployed using Azure OpenAI Service. The deployment process i
 </div>
 5. **Interact with the Bot**: Ask your queries or use the sample inputs provided.
 <div align="center">
-    <img src=""media1/bot.png"" alt="bot">
+    <img src=""./media1/bot.png"" alt="bot">
     <p>Bot Interface Page</p>
-    <img src=""media1/calculator.png"" alt="calculator">
+    <img src=""./media1/calculator.png"" alt="calculator">
     <p>Calculator Page</p>
 </div>
     
