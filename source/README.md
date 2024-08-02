@@ -185,25 +185,25 @@ The application is deployed using Azure OpenAI Service. The deployment process i
 1. **Access the Application**: Click on the <a href="https://atharvam-1732.github.io/TechX_BOB_Hackathon_20241/">application link</a> provided.
 2. **Home Page**: You will land on the home page.
 <div align="center">
-    <img src=""media1\home.png"" alt="HomePage">
+    <img src=""media1/home.png"" alt="HomePage">
     <p>Home Page</p>
 </div>  
 3. **Login/Register**: Click on the Login button. Currently, the bot is accessible to all users. Simply click on the Login text.
 <div align="center">
-    <img src=""media1\login.png"" alt="login">
+    <img src=""media1/login.png"" alt="login">
     <p>Login Page</p>
 </div>
 4. **Navigation**: You will be navigated to a page with five services: General, Loans, Investments, Insurance Bots, and one Calculator.
 <div align="center">
-    <img src=""media1\service.png"" alt="cyservice">
+    <img src=""media1/service.png"" alt="cyservice">
     <p>Choose your Service Page</p>
     <br>
 </div>
 5. **Interact with the Bot**: Ask your queries or use the sample inputs provided.
 <div align="center">
-    <img src=""media1\bot.png"" alt="bot">
+    <img src=""media1/bot.png"" alt="bot">
     <p>Bot Interface Page</p>
-    <img src=""media1\calculator.png"" alt="calculator">
+    <img src=""media1/calculator.png"" alt="calculator">
     <p>Calculator Page</p>
 </div>
     
